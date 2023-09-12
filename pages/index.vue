@@ -17,7 +17,7 @@ const rotateText = () => {
 	currentTextIndex.value = (currentTextIndex.value + 1) % texts.length;
 };
 
-const interval = setInterval(rotateText, 2000);
+const interval = setInterval(rotateText, 2500);
 
 onUnmounted(() => {
 	clearInterval(interval);
@@ -53,20 +53,22 @@ const scrollTo = (e: Event) => {
 					<h2
 						class="max-w-lg mb-6 text-3xl font-bold tracking-tight text-gray-50 sm:text-4xl sm:leading-none">
 						Kitsu provides you with<br />
-						<Transition
-							enter-from-class="translate-y-2"
-							enter-to-class="translate-y-0"
-							enter-active-class="duration-300"
-							leave-active-class="duration-300"
-							leave-from-class="translate-y-0"
-							leave-to-class="-translate-y-2"
-							mode="out-in">
-							<span
-								:key="currentTextIndex"
-								class="block text-purple-500 mt-1">
-								{{ texts[currentTextIndex] }}</span
-							>
-						</Transition>
+						<span class="overflow-hidden h-[1.2em] block">
+							<Transition
+								enter-from-class="translate-y-10"
+								enter-to-class="translate-y-0"
+								enter-active-class="duration-300"
+								leave-active-class="duration-300"
+								leave-from-class="translate-y-0"
+								leave-to-class="-translate-y-10"
+								mode="out-in">
+								<span
+									:key="currentTextIndex"
+									class="block text-purple-500 mt-1">
+									{{ texts[currentTextIndex] }}</span
+								>
+							</Transition>
+						</span>
 					</h2>
 					<p class="text-base text-gray-200 md:text-lg">
 						Kitsu is a community of people who love to chat, hang
