@@ -154,13 +154,7 @@ const scrollTo = (e: Event) => {
 					>Microblogging</a
 				>
 			</HeadlessPopoverGroup>
-			<div class="hidden lg:flex lg:flex-1 lg:justify-end">
-				<a
-					href="#"
-					class="text-sm group font-semibold leading-6 text-gray-50"
-					>Log in <ButtonsAnimatedArrow
-				/></a>
-			</div>
+			<div class="hidden lg:flex lg:flex-1 lg:justify-end">&nbsp;</div>
 		</nav>
 		<HeadlessDialog
 			as="div"
@@ -238,14 +232,6 @@ const scrollTo = (e: Event) => {
 								class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-50 hover:bg-dark-200"
 								@click="scrollTo"
 								>Microblogging</a
-							>
-						</div>
-						<div class="py-6">
-							<a
-								href="#"
-								class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-50 hover:bg-dark-200"
-								@click="scrollTo"
-								>Log in</a
 							>
 						</div>
 					</div>
