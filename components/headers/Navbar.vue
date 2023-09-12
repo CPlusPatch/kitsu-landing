@@ -55,8 +55,8 @@ const scrollTo = (e: Event) => {
 	<header
 		:class="[
 			'z-10 bg-transparent backdrop-blur-lg',
-			'fixed top-0 inset-x-0',
-			scrollY > 100 && 'bg-dark-800/30',
+			'fixed top-0 inset-x-0 border-b-1 border-dark-400',
+			scrollY > 100 && 'bg-dark-800/30 shadow-xl',
 		]">
 		<nav
 			class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
