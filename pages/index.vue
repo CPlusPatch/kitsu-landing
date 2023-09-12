@@ -33,7 +33,7 @@ onUnmounted(() => {
 		<div
 			class="z-0 flex justify-center h-full -mx-4 overflow-hidden lg:pt-24 lg:pb-16 lg:pr-8 xl:pr-0 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:right-0 lg:items-center">
 			<nuxt-img
-				src="/images/assets/screenshots/screenshot1.png"
+				src="/images/assets/screenshots/screenshot12.png"
 				format="webp"
 				class="object-cover object-left w-full h-auto lg:w-auto lg:h-full"
 				alt="" />
