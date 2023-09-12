@@ -37,7 +37,7 @@ const scrollTo = (e: Event) => {
 
 	<div
 		id="landing"
-		class="relative flex flex-col-reverse overflow-hidden px-4 py-16 mx-auto lg:flex lg:flex-col justify-center md:px-8 sm:max-w-xl md:max-w-full min-h-screen">
+		class="relative flex flex-col-reverse overflow-hidden px-4 py-24 mx-auto lg:flex lg:flex-col justify-center md:px-8 sm:max-w-xl md:max-w-full min-h-screen">
 		<div
 			class="z-0 flex justify-center h-full -mx-4 overflow-hidden lg:pt-24 lg:pb-16 lg:pr-8 xl:pr-0 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:right-0 lg:items-center">
 			<nuxt-img
