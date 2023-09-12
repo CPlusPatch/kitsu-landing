@@ -28,7 +28,7 @@ const services = [
 	{
 		name: "KitsuCloud",
 		image: "https://s3.kitsunes.club/cloud/19b8556a-07cf-4b5e-8f84-8436169df0e4.png",
-		href: "https://kitsunes.cliud",
+		href: "https://kitsunes.cloud",
 	},
 ];
 </script>
