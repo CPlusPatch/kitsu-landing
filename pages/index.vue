@@ -22,6 +22,14 @@ const interval = setInterval(rotateText, 2000);
 onUnmounted(() => {
 	clearInterval(interval);
 });
+
+const scrollTo = (e: Event) => {
+	e.preventDefault();
+	const target = document.querySelector(
+		(e.target as any).getAttribute("href")
+	);
+	target.scrollIntoView({ behavior: "smooth" });
+};
 </script>
 
 <template>
@@ -71,9 +79,10 @@ onUnmounted(() => {
 					<div class="flex items-center mt-4 gap-4">
 						<ButtonsServiceButton />
 						<a
-							href="/"
+							href="#communication"
 							aria-label=""
-							class="inline-flex items-center font-semibold transition-colors duration-200 text-purple-400 hover:text-purple-800"
+							class="inline-flex items-center font-semibold transition-colors duration-200 text-purple-400 hover:text-purple-300"
+							@click="scrollTo"
 							>Learn more</a
 						>
 					</div>
