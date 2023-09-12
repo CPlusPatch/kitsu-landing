@@ -47,15 +47,11 @@ export default defineNuxtConfig({
 	},
 	i18n: {
 		strategy: "prefix_except_default",
-		defaultLocale: "en-US",
+		defaultLocale: "en-CA",
 		locales: [
 			{
-				code: "en-US",
-				iso: "en-US",
-			},
-			{
-				code: "fr-FR",
-				iso: "fr-FR",
+				code: "en-CA",
+				iso: "en-CA",
 			},
 		],
 	},
@@ -72,9 +68,9 @@ export default defineNuxtConfig({
 	},
 	runtimeConfig: {
 		public: {
-			language: "en-US",
+			language: "en-CA",
 			titleSeparator: "·",
-			siteName: "CPlusPatch",
+			siteName: "Kitsu",
 			trailingSlash: true,
 		},
 	},

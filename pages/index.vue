@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-	title: "Quality Development Services",
+	title: "Quality Services",
 });
 
 const currentTextIndex = ref(1);
