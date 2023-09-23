@@ -27,11 +27,12 @@ useServerSeoMeta({
 	ogLocale: "en_CA",
 	description:
 		"Kitsu is a fun and friendly community with a variety of services!",
+	ogImage:
+		"https://kitsu.life/_ipx/f_webp&s_1280x720/images/assets/screenshots/screenshot2.png",
 });
 </script>
 
 <template>
-	<OgImageScreenshot />
 	<NuxtLayout>
 		<NuxtLoadingIndicator />
 		<NuxtPage />
