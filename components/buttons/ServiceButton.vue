@@ -12,7 +12,7 @@ const services = [
 	},
 	{
 		name: "KitsuCafe",
-		image: "https://kitsunes.cafe/pictrs/image/91a3e7e4-6c8c-4acb-ab48-324ca0ebb9ef.png",
+		image: "https://s3.kitsunes.club/storage/a9a15c67-ba91-4380-8234-a61f3b28487c.webp",
 		href: "https://kitsunes.cafe",
 	},
 	{
