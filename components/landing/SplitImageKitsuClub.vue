@@ -18,7 +18,7 @@
 				</div>
 				<div class="grid gap-5 row-gap-8 sm:grid-cols-2">
 					<a 
-						href="https://joinsharkey.org/
+						href="https://joinsharkey.org/"
 						class="bg-dark-300 shadow-sm hover:ring-2 duration-200 overflow-hidden ring-purple-500 rounded">
 						<div
 							class="h-full p-5 rounded-r flex flex-col justify-between">
