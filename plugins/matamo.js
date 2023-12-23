@@ -11,4 +11,4 @@ export default defineNuxtPlugin(nuxtapp => {
 
     /** Other configuration options **/
   })
-}
+})
