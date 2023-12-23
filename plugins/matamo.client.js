@@ -5,10 +5,11 @@ export default defineNuxtPlugin(nuxtapp => {
     router: app.router,
     host: "https://analytics.kitsu.life",
     siteId: 2,
-    requireCookieConsent: true,
-  
-
-
-    /** Other configuration options **/
+    router: nuxtapp.$router,
+    enableLinkTracking: true,
+    requireConsent: false,
+    trackInitialView: true,
+    disableCookies: true,
+    requireCookieConsent: false,
   })
 })
