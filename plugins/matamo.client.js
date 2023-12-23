@@ -11,5 +11,6 @@ export default defineNuxtPlugin(nuxtapp => {
     trackInitialView: true,
     disableCookies: true,
     requireCookieConsent: false,
+    trackExternalLinks: true
   })
 })
