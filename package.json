@@ -34,6 +34,7 @@
     "vite-plugin-node-polyfills": "^0.12.0"
   },
   "dependencies": {
+    "vue-matomo": "^4.2.0",
     "@aws-sdk/client-s3": "^3.400.0",
     "@julr/unocss-preset-forms": "^0.0.5",
     "@nuxt/image": "rc",

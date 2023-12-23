@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+	plugins: [
+		{ src: '~/plugins/matamo.js', ssr: false}
+	],
 	modules: [
 		"@unocss/nuxt",
 		"nuxt-headlessui",
