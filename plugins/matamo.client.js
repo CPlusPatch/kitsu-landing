@@ -1,3 +1,4 @@
+import { defineNuxtPlugin } from '#app'
 import VueMatomo from 'vue-matomo'
 
 export default defineNuxtPlugin(nuxtapp => {
